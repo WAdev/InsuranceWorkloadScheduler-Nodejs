@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: TransitionalSampleNode
+  host: TransitionalSampleNode
+  disk_quota: 1024M
+  services:
+  - Workload Scheduler-dq
+  - sendgrid-email
+
